@@ -7,9 +7,12 @@ Sphero seems to have given up, on providing open source implementations to contr
 
 IT IS A WORK IN PROGRESS, IT DOES NOT WORK NOW.
 
-- fakeSpheroBLE_server is the recipient for the commands from the Sphero Apps.
+- fakeSpheroBLE_server is the recipient for the commands from the Sphero Apps,
+  so we can read what kind of commands are sent.
 
-- esp32spheroBLE_client should become the controler app.
+- esp32spheroBLE_client should become the controler app,
+  so we can feed the commands to the real Sphero.
+
 
 For the moment I get the passphrase and something, I can stay connected to the real Sphero Mini, but fail to stay connected to the apps.
 
